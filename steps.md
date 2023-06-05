@@ -11,8 +11,6 @@
 
 1. *CREO* 
     una variabile sfruttando l'array con dentro gli oggetti della lista della spesa
-2. *CREO*
-    il contatore di incremento
 3. *APRO UN CICLO*
     servendomi di for
-    * stampo in console il valore di i
+    * finchè l'indice è minore di 5 stampo un oggetto della lista
