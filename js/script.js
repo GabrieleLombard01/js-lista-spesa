@@ -1,6 +1,11 @@
 //JS RESET
 console.log('JS OK')
 
+/*||||||||||||||||||||
+||||| FOR-METHOD ||||| ->
+||||||||||||||||||||||
+*/
+
 //PRENDO L'ELEMENTO DEL DOM
 const paragraphElement = document.getElementById('paragraph');
 
@@ -18,3 +23,11 @@ for (let i = 0; i < listElements.length; i++) {
 
     paragraphElement.innerHTML = list;
 }
+
+/*||||||||||||||||||||||
+||||| WHILE-METHOD ||||| ->
+||||||||||||||||||||||||
+*/
+
+//PRENDO L'ELEMENTO DEL DOM
+const paragraphElement = document.getElementById('second-paragraph');
