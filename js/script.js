@@ -12,9 +12,9 @@ const listElements = ['mela', 'pera', 'pasta', 'pollo', 'cereali', 'mela', 'pera
 let list = ' ';
 
 //APRO UN CICLO
-for (let i = 0; i < listElements.lenght; i++) {
+for (let i = 0; i < listElements.length; i++) {
 	//ISTRUZIONI DA ESEGUIRE
-    list += (listElements[i]);
+    list += `<li>${listElements[i]}</li>`;
 
     paragraphElement.innerHTML = list;
 }

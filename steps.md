@@ -13,4 +13,4 @@
     una variabile sfruttando l'array con dentro gli oggetti della lista della spesa
 3. *APRO UN CICLO*
     servendomi di for
-    * finchè l'indice è minore di 5 stampo un oggetto della lista
+    * finchè l'indice è minore della lunghezza della lista stampo un oggetto della lista
