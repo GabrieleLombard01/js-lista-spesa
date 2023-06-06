@@ -36,10 +36,10 @@ const paragraphElement2 = document.getElementById('second-paragraph');
 const listElements2 = ['mela', 'pera', 'pasta', 'pollo', 'cereali', 'mela', 'pera', 'pasta', 'pollo', 'cereali'];
 
 let list2 = ' ';
-
+let i = 0;
 //APRO UN CICLO
-while () {
+while (i < listElements2.length) {
     list2 += `<li>${listElements2[i]}</li>`;
-
+    i++;
     paragraphElement2.innerHTML = list2;
 };
